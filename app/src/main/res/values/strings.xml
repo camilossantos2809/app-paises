@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">App Paises</string>
+    <string name="pais1">Brasil</string>
+    <string name="pais2">Argentina</string>
+    <string name="pais3">Uruguai</string>
+    <string name="pais4">México</string>
+    <string name="pais5">EUA</string>
+    <string name="pais6">Finlândia</string>
+    <string name="pais7">França</string>
+    <string name="pais8">Rússia</string>
+    <string name="pais9">Índia</string>
+    <string name="pais10">Austrália</string>
+    <string name="title_activity_pais">País</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
