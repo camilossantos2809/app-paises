@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobreActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/card_view"
+        android:layout_width="377dp"
+        android:layout_height="466dp"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/txt_presidente"
+            android:layout_width="325dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="16dp"
+            android:text="Presidente"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_lingua"
+            android:layout_width="325dp"
+            android:layout_height="24dp"
+            android:text="Língua"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_presidente" />
+
+        <TextView
+            android:id="@+id/txt_continente"
+            android:layout_width="325dp"
+            android:layout_height="24dp"
+            android:text="Continente"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_lingua" />
+
+        <TextView
+            android:id="@+id/txt_area"
+            android:layout_width="325dp"
+            android:layout_height="24dp"
+            android:text="Area"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_continente" />
+
+        <TextView
+            android:id="@+id/txt_populacao"
+            android:layout_width="325dp"
+            android:layout_height="24dp"
+            android:text="População"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_area" />
+
+        <TextView
+            android:id="@+id/txt_capital"
+            android:layout_width="325dp"
+            android:layout_height="24dp"
+            android:text="Capital"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_populacao" />
+
+        <TextView
+            android:id="@+id/txt_distancia"
+            android:layout_width="325dp"
+            android:layout_height="24dp"
+            android:text="Diatância"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_capital" />
+
+        <TextView
+            android:id="@+id/txt_moeda"
+            android:layout_width="325dp"
+            android:layout_height="24dp"
+            android:text="Língua"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_distancia" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

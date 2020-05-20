@@ -1,8 +1,22 @@
 {
   "brasil": {
-    "url": "https://www.countryflags.io/br/flat/64.png"
+    "url": "https://www.countryflags.io/br/flat/64.png",
+    "presidente": "Jair Bolsonaro",
+    "lingua": "Português",
+    "continente": "América",
+    "area": 123,
+    "populacao": 123,
+    "capital": "Brasília",
+    "moeda": "Real",
+    "distancia": 123
   },
   "argentina": {
-    "url": "https://www.countryflags.io/ar/flat/64.png"
+    "url": "https://www.countryflags.io/ar/flat/64.png",
+    "presidente": "Jair Bolsonaro",
+    "lingua": "Português",
+    "continente": "América",
+    "area": 123,
+    "populacao": 123,
+    "capital": "Brasília"
   }
 }

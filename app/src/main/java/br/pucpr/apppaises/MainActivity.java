@@ -59,14 +59,41 @@ public class MainActivity extends AppCompatActivity {
                 String pais = reader.nextName();
 
                 reader.beginObject();
-                String key = reader.nextName();
-                switch (key) {
-                    case "url":
-                        data.setUrl(reader.nextString());
-                        break;
-                    default:
-                        reader.skipValue();
+                while(reader.hasNext()){
+                    String key = reader.nextName();
+                    switch (key) {
+                        case "url":
+                            data.setUrl(reader.nextString());
+                            break;
+                        case "presidente":
+                            data.setPresidente(reader.nextString());
+                            break;
+                        case "lingua":
+                            data.setLingua(reader.nextString());
+                            break;
+                        case "continente":
+                            data.setContinente(reader.nextString());
+                            break;
+                        case "area":
+                            data.setArea(reader.nextDouble());
+                            break;
+                        case "populacao":
+                            data.setPopulacao(reader.nextDouble());
+                            break;
+                        case "capital":
+                            data.setCapital(reader.nextString());
+                            break;
+                        case "distancia":
+                            data.setDistancia(reader.nextDouble());
+                            break;
+                        case "moeda":
+                            data.setMoeda(reader.nextString());
+                            break;
+                        default:
+                            reader.skipValue();
+                    }
                 }
+
                 reader.endObject();
                 list.put(pais, data);
             }
