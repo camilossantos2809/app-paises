@@ -4,19 +4,113 @@
     "presidente": "Jair Bolsonaro",
     "lingua": "Português",
     "continente": "América",
-    "area": 123,
-    "populacao": 123,
+    "area": "8.516.000 km²",
+    "populacao": "209,5 milhões (2018) ",
     "capital": "Brasília",
     "moeda": "Real",
-    "distancia": 123
+    "distancia": "0",
+    "artistas": [
+      {
+        "nome": "Ariano Suassuna",
+        "tipo": "escritor",
+        "dataNasc": "16/06/1927",
+        "sobre": "Ariano Vilar Suassuna (Cidade da Parahyba, 16 de junho de 1927 — Recife, 23 de julho de 2014) foi um dramaturgo, romancista, ensaísta, poeta e professor brasileiro.[1]\n\nIdealizador do Movimento Armorial e autor das obras Auto da Compadecida e O Romance d'A Pedra do Reino e o Príncipe do Sangue do Vai-e-Volta, foi um preeminente defensor da cultura do Nordeste do Brasil.\n\nFoi Secretário de Cultura de Pernambuco (1994-1998) e Secretário de Assessoria do governador Eduardo Campos até abril de 2014.[2]"
+      },
+      {
+        "nome": "André Matos",
+        "tipo": "músico",
+        "dataNasc": "14/09/1971",
+        "sobre": "Andre Coelho Matos (São Paulo, 14 de setembro de 1971 — São Paulo, 8 de junho de 2019[1]) foi um cantor, compositor, maestro, produtor e pianista brasileiro, conhecido por ter sido vocalista das bandas Viper, Angra e Shaman. O artista vendeu milhões de cópias durante a sua carreira. Também capitaneou os projetos Virgo e Symfonia, além de ter feito participações especiais em bandas como Avantasia e Aina. Desde outubro de 2006, estava em carreira solo.\n\nEm seu currículo constam Regência Orquestral, Composição Musical, habilitação em Canto Lírico e habilitação em Piano Erudito.[2] Foi eleito o 77º melhor cantor brasileiro de todos os tempos pela revista Rolling Stone Brasil.[3]"
+      },
+      {
+        "nome": "José Padilha",
+        "tipo": "diretor",
+        "dataNasc": "01/08/1967",
+        "sobre": "José Bastos Padilha Neto[1] (Rio de Janeiro, 1º de agosto de 1967) é um cineasta, roteirista, documentarista e produtor cinematográfico brasileiro. Graduado em Administração de Empresas pela Pontifícia Universidade Católica do Rio de Janeiro, estudou Economia Política, Literatura Inglesa e Política Internacional em Oxford, Inglaterra.\n\nFundou em 1997, com o fotógrafo e diretor Marcos Prado, a Zazen Produções. Seu primeiro roteiro produzido foi o documentário para a televisão Os carvoeiros, em 1999. Sua estreia como diretor de cinema foi no premiado documentário Ônibus 174, de 2002. Seu primeiro longa de ficção foi o sucesso Tropa de Elite, em 2007.\n\nEm 2008, Padilha foi incluído na lista 10 Directors to Watch da revista Variety.[2]\n\nAo lado de Fernando Meirelles, foi o primeiro diretor anunciado no projeto Rio, Eu Te Amo, da franquia Cities of Love."
+      }
+    ]
   },
   "argentina": {
     "url": "https://www.countryflags.io/ar/flat/64.png",
-    "presidente": "Jair Bolsonaro",
-    "lingua": "Português",
+    "presidente": "Alberto Fernández",
+    "lingua": "Espanhol",
     "continente": "América",
-    "area": 123,
-    "populacao": 123,
-    "capital": "Brasília"
+    "area": "2 780 400[5] km² ",
+    "populacao": "44,49 milhões (2018)",
+    "capital": "Buenos Aires",
+    "moeda": "Peso argentino",
+    "distancia": "2924 km",
+    "artistas": [
+      {
+        "nome": "Carlos Gardel",
+        "tipo": "cantor",
+        "dataNasc": "11/12/1890",
+        "sobre": "Carlos Gardel é o mais genuíno ícone do tango. Foi compositor, intérprete e ator de inúmeras canções e musicais. Com ele, o cadenciado ritmo portenho ganhou uma faceta mais romântica e deu volta ao mundo. Gardel foi um personagem emblemático em vida e sua trágica e prematura morte terminou de potencializar o mito. Ainda hoje, continua sendo uma das personalidades mais queridas da Argentina. Seus seguidores costumam dizer que ele “canta cada dia melhor”."
+      },
+      {
+        "nome": "Quino",
+        "tipo": "cartunista",
+        "dataNasc": "17/07/1932",
+        "sobre": "Quino é o grande cartunista argentino, criador da querida personagem Mafalda e de muitos outros brilhantes quadrinhos de humor. Sua marca distintiva é a crítica social sagaz, inteligente e sempre atual, que há décadas vem encantando crianças e adultos mundo afora."
+      },
+      {
+        "nome": "Mercedes Sosa",
+        "tipo": "cantora",
+        "dataNasc": "09/07/1935",
+        "sobre": "Mercedes Sosa foi uma cantora argentina, uma das mais famosas na América Latina. A sua música tem raízes na música folclórica argentina. Ela se tornou uma das expoentes do movimento conhecido como Nueva canción. Apelidada de La Negra pelos fãs, devido à ascendência ameríndia, ficou conhecida como a voz dos \"sem voz\"."
+      }
+    ]
+  },
+  "uruguai": {
+    "url": "https://www.countryflags.io/uy/flat/64.png",
+    "presidente": "Luis Alberto Lacalle Pou",
+    "lingua": "Espanhol",
+    "continente": "América",
+    "area": "176.215 km² ",
+    "populacao": "3.351.016 hab.",
+    "capital": "Montevidéu",
+    "moeda": "Peso uruguaio",
+    "distancia": "2070 km",
+    "artistas": [
+      {
+        "nome": "Malena Muyala",
+        "tipo": "cantora",
+        "dataNasc": "23/03/1971",
+        "sobre": "Malena Muyala é uma cantora e compositora uruguaia especializada em música de tango e milonga. Ela lançou vários álbuns que foram certificados em ouro e platina e fez turnês dentro e fora do Uruguai."
+      },
+      {
+        "nome": "Jorge Drexler",
+        "tipo": "cantor e compositor",
+        "dataNasc": "21/09/1964",
+        "sobre": "Jorge Drexler é um cantor e compositor uruguaio, mais conhecido pela sua canção \"Al otro lado del río\", a primeira canção em espanhol a vencer o Oscar de melhor canção original. Além de cantor e compositor, é formado médico, especializado em otorrinolaringologia."
+      },
+      {
+        "nome": "Natalia Oreiro",
+        "tipo": "atriz e cantora",
+        "dataNasc": "19/05/1977",
+        "sobre": "Natalia Oreiro (Montevidéu, 19 de maio de 1977) é uma atriz, cantora, empresária e modelo uruguaia. Após realizar aparições em anúncios publicitários durante a pré-adolescência, Oreiro se mudou para a Argentina em 1994 para continuar sua carreira artística: seus trabalhos mais notáveis incluem as telenovelas Ricos y famosos (1997), Muñeca brava (1998), Kachorra (2002), Sos mi vida (2002) e Solamente vos (2013).[1] Devido a seu êxito internacional, é, por vezes, citada como \"Rainha das Telenovelas\".[2] No início de sua carreira, Oreiro ganhou um concurso e tornou-se uma das Paquitas do programa El Show de Xuxa produzido pela Telefé da Argentina, e exibido em 16 países da América Latina e Estados Unidos.[3]"
+      }
+    ]
+  },
+  "mexico": {
+    "url": "https://www.countryflags.io/mx/flat/64.png"
+  },
+  "eua": {
+    "url": "https://www.countryflags.io/us/flat/64.png"
+  },
+  "finlandia": {
+    "url": "https://www.countryflags.io/fi/flat/64.png"
+  },
+  "franca": {
+    "url": "https://www.countryflags.io/fr/flat/64.png"
+  },
+  "russia": {
+    "url": "https://www.countryflags.io/ru/flat/64.png"
+  },
+  "india": {
+    "url": "https://www.countryflags.io/in/flat/64.png"
+  },
+  "australia": {
+    "url": "https://www.countryflags.io/au/flat/64.png"
   }
 }

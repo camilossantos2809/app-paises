@@ -24,60 +24,70 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais1"/>
         <Button
             android:id="@+id/bt_pais_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais2" />
         <Button
             android:id="@+id/bt_pais_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais3" />
         <Button
             android:id="@+id/bt_pais_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais4" />
         <Button
             android:id="@+id/bt_pais_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais5" />
         <Button
             android:id="@+id/bt_pais_6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais6" />
         <Button
             android:id="@+id/bt_pais_7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais7" />
         <Button
             android:id="@+id/bt_pais_8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais8" />
         <Button
             android:id="@+id/bt_pais_9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais9" />
         <Button
             android:id="@+id/bt_pais_10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="@string/pais10" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

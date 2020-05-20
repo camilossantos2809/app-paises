@@ -14,4 +14,5 @@
     <string name="title_activity_lugares">Lugares p/ Conhecer</string>
     <string name="title_activity_sobre">Sobre o País</string>
     <string name="title_activity_artistas">Artistas</string>
+    <string name="title_activity_artistas_detail">Detalhe do Artista</string>
 </resources>

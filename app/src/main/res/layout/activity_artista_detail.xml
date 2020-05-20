@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SobreActivity">
+    tools:context=".ArtistaDetailActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -28,19 +28,10 @@
 
 
         <TextView
-            android:id="@+id/txt_presidente"
-            android:layout_width="325dp"
-            android:layout_height="24dp"
-            android:layout_marginTop="16dp"
-            android:text="Presidente"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
             android:id="@+id/txt_nome"
             android:layout_width="325dp"
             android:layout_height="24dp"
-            android:text="Língua"
+            android:text="Nome"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_presidente" />
@@ -49,7 +40,7 @@
             android:id="@+id/txt_tipo"
             android:layout_width="325dp"
             android:layout_height="24dp"
-            android:text="Continente"
+            android:text="Tipo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_nome" />
@@ -58,7 +49,7 @@
             android:id="@+id/txt_data"
             android:layout_width="325dp"
             android:layout_height="24dp"
-            android:text="Area"
+            android:text="Data"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_tipo" />
@@ -67,38 +58,26 @@
             android:id="@+id/txt_sobre"
             android:layout_width="325dp"
             android:layout_height="24dp"
-            android:text="População"
+            android:text="Sobre: "
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_data" />
 
-        <TextView
-            android:id="@+id/txt_capital"
+        <EditText
+            android:id="@+id/txt_area_sobre"
             android:layout_width="325dp"
-            android:layout_height="24dp"
-            android:text="Capital"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:enabled="false"
+            android:forceHasOverlappingRendering="true"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_sobre" />
 
-        <TextView
-            android:id="@+id/txt_distancia"
-            android:layout_width="325dp"
-            android:layout_height="24dp"
-            android:text="Diatância"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_capital" />
-
-        <TextView
-            android:id="@+id/txt_moeda"
-            android:layout_width="325dp"
-            android:layout_height="24dp"
-            android:text="Língua"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_distancia" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

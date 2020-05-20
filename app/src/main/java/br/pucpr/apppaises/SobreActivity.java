@@ -6,11 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 public class SobreActivity extends AppCompatActivity {
 private PaisData data;
@@ -34,23 +30,23 @@ private PaisData data;
         final TextView txtPresidente = findViewById(R.id.txt_presidente);
         txtPresidente.setText("Presidente: "+ this.data.getPresidente());
 
-        final TextView txtLingua= findViewById(R.id.txt_lingua);
+        final TextView txtLingua= findViewById(R.id.txt_nome);
         txtLingua.setText("Língua: "+ this.data.getLingua());
 
-        final TextView txtContinente = findViewById(R.id.txt_continente);
+        final TextView txtContinente = findViewById(R.id.txt_tipo);
         txtContinente.setText("Continente: "+ this.data.getContinente());
 
-        final TextView txtArea = findViewById(R.id.txt_area);
-        txtArea.setText("Área: "+ this.data.getArea().toString());
+        final TextView txtArea = findViewById(R.id.txt_data);
+        txtArea.setText("Área: "+ this.data.getArea());
 
-        final TextView txtPopulacao = findViewById(R.id.txt_populacao);
-        txtPopulacao.setText("População: "+ this.data.getPopulacao().toString());
+        final TextView txtPopulacao = findViewById(R.id.txt_sobre);
+        txtPopulacao.setText("População: "+ this.data.getPopulacao());
 
         final TextView txtCapital = findViewById(R.id.txt_capital);
         txtCapital.setText("Capital: "+ this.data.getCapital());
 
         final TextView txtDistancia = findViewById(R.id.txt_distancia);
-        txtDistancia.setText("Distância até o Brasil: "+ this.data.getDistancia().toString());
+        txtDistancia.setText("Distância até o Brasil: "+ this.data.getDistancia());
 
         final TextView txtMoeda = findViewById(R.id.txt_moeda);
         txtMoeda.setText("Moeda: "+ this.data.getMoeda());

@@ -24,13 +24,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
-            android:text="Lugares para conhecer" />
+            android:text="Lugares para conhecer"
+            android:textColor="@color/textColorPrimary"/>
 
         <Button
             android:id="@+id/btn_sobre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="Sobre o país" />
 
         <Button
@@ -38,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/textColorPrimary"
             android:text="Artistas" />
 
         <ImageView

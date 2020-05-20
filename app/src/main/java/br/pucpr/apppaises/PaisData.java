@@ -5,16 +5,19 @@ import android.util.JsonReader;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.List;
+
 public class PaisData {
     private String url;
     private String presidente;
     private String lingua;
     private String continente;
-    private Double area;
-    private Double populacao;
+    private String area;
+    private String populacao;
     private String capital;
-    private Double distancia;
+    private String distancia;
     private String moeda;
+    private List<ArtistaData> artistas;
 
     @Override
     public String toString() {
@@ -23,11 +26,19 @@ public class PaisData {
                 '}';
     }
 
-    public Double getDistancia() {
+    public List<ArtistaData> getArtistas() {
+        return artistas;
+    }
+
+    public void setArtistas(List<ArtistaData> artistas) {
+        this.artistas = artistas;
+    }
+
+    public String getDistancia() {
         return distancia;
     }
 
-    public void setDistancia(Double distancia) {
+    public void setDistancia(String distancia) {
         this.distancia = distancia;
     }
 
@@ -71,19 +82,19 @@ public class PaisData {
         this.continente = continente;
     }
 
-    public Double getArea() {
+    public String getArea() {
         return area;
     }
 
-    public void setArea(Double area) {
+    public void setArea(String area) {
         this.area = area;
     }
 
-    public Double getPopulacao() {
+    public String getPopulacao() {
         return populacao;
     }
 
-    public void setPopulacao(Double populacao) {
+    public void setPopulacao(String populacao) {
         this.populacao = populacao;
     }
 
